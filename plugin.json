@@ -1,0 +1,17 @@
+{
+    "main": "index.html",
+    "logo": "logo.png",
+    "preload": "preload.js",
+    "features": [
+        {
+            "code": "OxfordLearnersDictionaries",
+            "explain": "OxfordLearnersDictionaries",
+            "cmds": [
+                {
+                    "type": "over",
+                    "label": "Oxford"
+                }
+            ]
+        }
+    ]
+}
