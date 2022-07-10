@@ -5,7 +5,7 @@ window.utools.onPluginEnter(({ code, type, payload }) => {
   // window.alert(`onPluginEnter ${payload}`)
 
   if (!isValidWord(payload)) {
-    // window.utools.outPlugin();
+    window.utools.outPlugin();
     return;
   }
 
@@ -19,9 +19,9 @@ window.utools.onPluginEnter(({ code, type, payload }) => {
   //     })
   //     .run({ width: 780, height: 600 });
 
-  window.alert(searchUrl);
+  // window.alert(searchUrl);
 
-  // window.utools.shellOpenExternal(searchUrl);
+  window.utools.shellOpenExternal(searchUrl);
   window.utools.outPlugin();
 });
 
